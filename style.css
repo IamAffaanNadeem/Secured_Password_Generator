@@ -1,0 +1,102 @@
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #4e54c8, #8f94fb);
+    color: #fff;
+  }
+  
+  /* Main container styling */
+  .container {
+    background: #ffffff;
+    color: #333;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  /* Header */
+  h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #4e54c8;
+  }
+  
+  /* Form elements */
+  .form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0 5px;
+  }
+  
+  input[type="number"],
+  button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  /* Checkbox */
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  /* Buttons */
+  button {
+    background: #4e54c8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #3d41a4;
+  }
+  
+  /* Output styles */
+  .output {
+    margin-top: 20px;
+  }
+  
+  #password-box {
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 10px;
+    word-break: break-all;
+  }
+  
+  /* Copy button */
+  #copy-btn {
+    display: inline-block;
+    background: #28a745;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  #copy-btn:hover {
+    background: #218838;
+  }
+  
